@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 250px;    
+}
+
+.img-container {
+    text-align: center;
+}
+
+body {
+    background-color: #EBD5C3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #706F6F;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FAF0E6;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+}
+
+.logo img{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #706F6F;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;  
+}
+
+
+.nav a:hover{
+    background-color: #FAEBD7;
+    color: #FFDAB9;
+    box-sizing: 0 8px 16px rgba(237, 242, 244, 0, 4);
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #7f8c8d;
+    color: #CC8585;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #706F6F;
+}
+
+#sobre p{
+    font-size: 18px;
+    padding: 20px 210px 00px 210px;
+    max-width: 2000px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    margin: 20px;    
+}
+
+.card-container h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.card-modern {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 450px;
+    margin: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-content {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.card-modern p {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    padding: 5px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #CC8585;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+button {
+    background-color: #7f8c8d;
+    color: #CC8585;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #637381;
+}
+
+.card-modern:hover {
+    transform: translateY(-5px);
+}
+
+
+#sobre, #recompensas, #testemunhos, #contato, #testimonials_header h2 {
+    padding: 10px;
+    text-align: center;    
+}
+
+.testemunhos-container {
+    margin: 20px 0;
+}
+
+#testimonials {
+    min-height: 100vh;
+    background-color: #EBD5C3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 32px 8%;
+}
+
+#testimonials_header {
+    text-align: center;
+}
+
+#testimonials_header h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #706F6F;    
+}
+
+#testimonials_header p {
+    color: #637381;
+    font-size: 16px;
+    max-width: 485px;
+}
+
+.swiper {
+    width: 100%;
+    height: 329px;
+    padding-bottom: 60px;
+} 
+
+.swiper-slide {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px rgba(92, 115, 160, 0.07);
+    padding: 34px;
+    border-radius: 12px;
+}
+
+.testimonial-rate {
+    display: flex;
+    gap: 2px;
+}
+
+.testimonial-rate i {
+    color: #f9b707;
+}
+
+.testimonial-quote {
+    color: #637381;
+    font-size: 16px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.author-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.author-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.author-info h3 {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111928;
+}
+
+.author-info p {
+    font-size: 12px;
+    color: #8899a8;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: none;
+    width: 25px;
+    height: 25px;
+    color: #706F6F;
+    border: 1px solid #f9fafb;
+    border-radius: 100%;
+    box-shadow: 0px 0px 20px 0px rgba(92, 115, 160, 0.2);
+}
+
+.swiper-button-prev::after {
+    content: '\f053';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    font-size: 14px;
+    color: #706F6F;
+}
+
+.swiper-button-next::after {
+    content: '\f054';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    font-size: 14px;
+    color: #706F6F;
+}
+
+.swiper-button-prev {
+    left: 3px;
+}
+
+.swiper-button-next {
+    right: 3px;
+}
+
+.swiper-pagination.active {
+    background-color: #706F6F;
+    color: #706F6F;
+}
+
+#contato {
+    margin-top: auto; /* Leva a seção para o final da página */
+    text-align: center; /* Centraliza o texto dentro da seção */
+    padding: 20px; /* Espaçamento interno */
+}
+
+#contato-form {
+    display: flex; /* Usar flexbox no formulário */
+    flex-direction: column; /* Colocar os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    gap: 10px; /* Espaçamento entre os campos do formulário */
+}
+
+#contato-form input, 
+#contato-form textarea, 
+#contato-form button {
+    width: 300px; /* Largura fixa para os campos do formulário */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ddd; /* Borda padrão */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+
+
+#contato form button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #706F6F;
+    color: #CC8585;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#contato form button:hover{
+    background-color: #637381; 
+}
+
+footer {
+    padding: 10px;
+    background-color: #FAF0E6;
+    color: #706F6F;
+    text-align: center;
+    box-shadow: 4px 0 8px rgb(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Empilha os itens de navegação em telas menores */
+    }
+
+    .card-modern {
+        flex: 1 1 100%; /* Cartões ocupam 100% da largura */
+    }
+
+    .swiper {
+        height: auto; /* Permite que o swiper se ajuste */
+    }
+
+    #contato-form {
+        gap: 8px; /* Reduz o espaço entre campos em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column; /* Empilha logo e nav em telas muito pequenas */
+        align-items: flex-start; /* Alinha items à esquerda */
+    }
+
+    .logo img {
+        max-width: 80%; /* Ajusta o tamanho do logo em telas pequenas */
+    }
+}
