@@ -275,25 +275,25 @@ button:hover {
 }
 
 #contato {
-    margin-top: auto; /* Leva a seção para o final da página */
-    text-align: center; /* Centraliza o texto dentro da seção */
-    padding: 20px; /* Espaçamento interno */
+    margin-top: auto; 
+    text-align: center; 
+    padding: 20px; 
 }
 
 #contato-form {
-    display: flex; /* Usar flexbox no formulário */
-    flex-direction: column; /* Colocar os itens em coluna */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    gap: 10px; /* Espaçamento entre os campos do formulário */
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
 }
 
 #contato-form input, 
 #contato-form textarea, 
 #contato-form button {
-    width: 300px; /* Largura fixa para os campos do formulário */
-    padding: 10px; /* Espaçamento interno */
-    border: 1px solid #ddd; /* Borda padrão */
-    border-radius: 5px; /* Cantos arredondados */
+    width: 300px; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
 }
 
 
@@ -323,26 +323,26 @@ footer {
 
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column; /* Empilha os itens de navegação em telas menores */
+        flex-direction: column;
     }
 
     .card-modern {
-        flex: 1 1 100%; /* Cartões ocupam 100% da largura */
+        flex: 1 1 100%;
     }
 
     .swiper {
-        height: auto; /* Permite que o swiper se ajuste */
+        height: auto;
     }
 
     #contato-form {
-        gap: 8px; /* Reduz o espaço entre campos em telas menores */
+        gap: 8px;
     }
 }
 
 @media (max-width: 480px) {
     header {
-        flex-direction: column; /* Empilha logo e nav em telas muito pequenas */
-        align-items: flex-start; /* Alinha items à esquerda */
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .logo img {
